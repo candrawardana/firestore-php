@@ -67,6 +67,7 @@ class FirestoreHelper
      */
     public static function normalizeCollection($value)
     {
+        return $value;
         return ltrim($value, '/');
     }
 
